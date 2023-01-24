@@ -1,0 +1,54 @@
+hello this is an intro to linux os
+right now im using linux mint
+i hope i can become sufficient enough so i can
+convert into linux user
+
+::: simple command
+- pwd : returning the current directory
+- echo : print whatever follows it
+	echo $SHELL
+	echo $HOME
+- ls : listing all the directories and all the files in the
+	current directory
+	ls -l
+	ls -l <direcotry name>
+	ls -d <direcotry name>
+	ls -ld <direcotry name> : info about directory 
+	ls -al : list all directories and files even the hidden one
+- cd : move /traverse the directories
+	cd $HOME
+	cd realtive_path/..
+	cd .. : back to one dir before
+	cd : back to home
+	
+	: change permission on the directory
+	> the bit positions are as follows
+	rwx rwx  rwx
+	User Group World	
+	111 = 7 = rwx  
+	101 = 5 = r_x
+
+- touch : make file
+- mkdir : create a directory
+- rm : remove a file / direcotry
+	rm -rf <dir-name> : to forcefully remove the directory
+			 with all of its contents
+- rmdir : remove a directory
+- cp : copy
+	cp <relative_path> <destination>
+
+- grep : find a pattern in a file
+	use grep with recursive option to search through files
+	and directories for the pattern
+	
+	grep <pattern> -v <file> ::: the thing that arent the same with the pattern
+	grep -r <pattern> * : search in every file	
+
+- find : to find a file
+	use find with redirect to avoid error messages
+	
+	find . -name <filename>
+RENAMING DIRECTORY
+- mv ::: 
+	mv <source_directory> <target_directory>
+

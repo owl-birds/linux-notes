@@ -1,0 +1,79 @@
+v : visual mode
+o : append in new line
+y : copy
+p : paste
+d : delete
+j : down
+k : up * $$$$$$$$^
+h : left
+l : right
+u : undo
+ctrl+r : redo
+r : replace
+w : jump to the next word
+$ : jump to the end of the line
+0 : jump to the start of the line
+ggVG : SELECT ALL IN VIM
+%
+t+something : ex : t "|*|etc
+gg : go to the start of the file
+shift+g : go to the end of the file
+>>>>
+<<<<
+==
+zz
+
+--- copying to the system clipboard
+enter visual mode and select the text that u want to copy
+then type ::: "*y : on macos
+              "+y : on linux
+"p+ :: paste in normal mode
+
+test tes copy
+test
+
+commenting in vim editor
+1.ctrl+v ::: to do visual block
+2.shift+i ::: to insert the comment tag : for ex: js = //, python : #, etc
+3.esc ::: after escape, the vimm will add the commetn tag for each line that we selected in the visual block mode
+
+SEARCHING :
+/word : type "n" to go to the next
+?word
+
+MARKING
+m
+
+VIM REGISTER
+:reg
+
+combination
+dw : delete/cut a word ;;; can be followed by a number to specify how many word will be deleted or cut
+ciw : delete/cut the current word at the cursor location ; delete/cut inner word then jump to insert mode
+diw : delete/cut the current word at the cursor location  ; delete inner word then stay in neutral mode
+yiw
+ci" | ci' : delete/delete inner quotatioon marks
+di" | di'
+di{ ; di[ ; di(
+
+change a middle wordd test test test test test test
+wordd testtest test testtest
+
+console.log("type command ci" to delete/cut inner quotation mark")
+console.log('ci'\ command');
+
+{
+	dadasdad
+	%%% command
+	wdadw
+	dwadwada
+}
+test
+
+subtitute
+
+:PlugInstall
+> to uninstall
+first remove the line where plug wrote
+:PlugClean
+
