@@ -1,3 +1,18 @@
+// chaning multiple words based
+// all
+:%s/word_need_to_change/new_word/g :::: g for global
+ ::: without g it will replace the first instance on every line
+// test2 test2 word test2 test2 word
+// in the current line / cursor
+:s/word_need_to_change/new_word/g
+
+::: chaning slashes / 
+
+///////////// to ++++++++
+:s#/#new_thing/g or no
+-------------
+
+
 v : visual mode
 o : append in new line
 y : copy
