@@ -12,7 +12,10 @@
 :s#/#new_thing/g or no
 -------------
 
-
+// add something into multple line 
+:[start line],[end line]s/^/stuff_that_u_want_to_add
+ADDD HERE
+ADDD HERE
 v : visual mode
 o : append in new line
 y : copy
