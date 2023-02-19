@@ -16,6 +16,15 @@
 :[start line],[end line]s/^/stuff_that_u_want_to_add
 ADDD HERE
 ADDD HERE
+/// or u can use visual mode to select all the line
+
+// to remove some character based on the line that u select in visual mode
+ or by using startting line or end line 
+:[start_line],[end line]s/^./ :::: . reprresent 1 character if it .. then 2
+
+23test 
+23test
+
 v : visual mode
 o : append in new line
 y : copy
