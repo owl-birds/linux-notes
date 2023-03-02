@@ -1,3 +1,7 @@
+// text format 
+gqip
+
+
 // chaning multiple words based
 // all
 :%s/word_need_to_change/new_word/g :::: g for global
