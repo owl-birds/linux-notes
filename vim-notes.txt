@@ -60,6 +60,9 @@ then type ::: "*y : on macos
               "+y : on linux
 "p+ :: paste in normal mode
 
+"*y : copy 
+"*p : paste
+
 test tes copy
 test
 
